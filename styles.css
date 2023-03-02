@@ -1,0 +1,140 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+
+.top-container{
+position: relative;
+height: 30%;
+
+}
+
+.middle-container{
+position: relative;
+    flex: 1;
+    z-index: 1;
+    
+}
+
+.middle-container-box{
+    position: relative;
+    left:20%;
+    height: auto;
+    width: 44%;
+    background-color: #EDDBC7;
+    padding-right: 200px;
+}
+
+.chapter1, .chapter2, .chapter3, .chapter4{
+    padding: 50px 0 50px 20px;
+}
+.chapter1header, .chapter2header, .chapter3header, .chapter4header{
+    color: white;
+}
+
+.abstract{
+    background-image: url(images/calmsea.jpg);
+    position: absolute;
+    top: 80px;
+    right: 130px;
+    z-index: 2;
+    width: 36%;
+    height: 800px;
+
+}
+
+.motto{
+    padding: 60px 40px 0 200px;
+    font-family: 'EB Garamond', serif;
+    text-align: right;
+    font-weight: 800;
+}
+
+
+.bottom-container{
+   
+    text-align: center;
+    height: 200px;
+}
+
+.my-navbar{
+    right: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: #6B728E;
+  }
+
+  .nav-item{
+    margin: 0 10px;
+  }
+
+
+.name{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-weight:350;
+    width: 300px;  
+}
+
+.random{
+    position: relative;
+    width: 200px;
+    bottom: 50px;
+    left: 20px;
+    
+}
+
+/* 
+.carousel-item{
+   opacity: 0.6;
+    height: 400px;
+}
+
+#mycarousel{
+    padding-top: 100px;
+    bottom: 200px;
+} */
+
+.copyrights{
+   position: relative;
+    font-size: small;
+    padding-top: 150px;
+    bottom: 15px;
+}
+
+
+.news-box, .services-box, .suggestions-box, .contact-box{
+    position: relative;
+    background-color: #EDDBC7;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
+
+.servicesimg{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    margin: 30px auto;
+}
+
+iframe{
+    width: 70%;
+    margin: 50px 15%;
+    
+    
+}
+
+form{
+    width: 60%;
+    margin-left: 20%;
+   
+}
