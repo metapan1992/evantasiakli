@@ -22,16 +22,17 @@ position: relative;
     left:20%;
     height: auto;
     width: 44%;
-    background-color: #EDDBC7;
+    background-color: #FEFBE9;
     padding-right: 200px;
 }
 
 .chapter1, .chapter2, .chapter3, .chapter4{
     padding: 50px 0 50px 20px;
 }
-.chapter1header, .chapter2header, .chapter3header, .chapter4header{
-    color: white;
-}
+
+/* .chapter1header, .chapter2header, .chapter3header, .chapter4header{
+    color:#6B728E;
+} */
 
 .abstract{
     background-image: url(images/calmsea.jpg);
@@ -108,7 +109,7 @@ position: relative;
 
 .news-box, .services-box, .suggestions-box, .contact-box{
     position: relative;
-    background-color: #EDDBC7;
+    background-color: #FEFBE9;
     width: 50%;
     height: auto;
     margin: 0 auto;
@@ -138,3 +139,22 @@ form{
     margin-left: 20%;
    
 }
+
+.more{
+    text-decoration: none;
+    color:midnightblue;
+}
+
+.more:hover{
+    color:#6B728E;
+}
+.myselfimg{
+    width: 80%;
+    padding: 30px;
+}
+
+.cv-text{
+    padding: 20px;
+   width: 90%;
+}
+
