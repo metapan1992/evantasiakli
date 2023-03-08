@@ -6,12 +6,12 @@ html, body{
 
 .top-container{
 position: relative;
-height: 30%;
 
 }
 
 .middle-container{
 position: relative;
+
     flex: 1;
     z-index: 1;
     
@@ -24,6 +24,7 @@ position: relative;
     width: 44%;
     background-color: #FEFBE9;
     padding-right: 200px;
+    margin-top: 200px;
 }
  
 .chapter1, .chapter2, .chapter3, .chapter4{
@@ -112,7 +113,7 @@ position: relative;
     background-color: #FEFBE9;
     width: 50%;
     height: auto;
-    margin: 0 auto;
+    margin: 200px auto;
     padding-bottom: 50px;
 
 }
@@ -158,17 +159,22 @@ form{
    width: 90%;
 }
 
+#mycarousel{
+    margin: 10%;
+}
+
 
 
 /* smaller screen */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
 
    .abstract{
-    position: relative;
-    width: 70%;
+    position: static;
+    width: 80%;
     height: 400px;
-    left:20%;
+   
+    margin: 15px auto;
    }
 
 .motto{
@@ -177,21 +183,37 @@ form{
 }
 
 .chapter1, .chapter2, .chapter3, .chapter4{
-    padding: 30px;
+    padding: 5px 5px 15px 5px;
 }
 
 
-.middle-container-box{
-    margin-top: 20%;
-    width: 70%;
+ .middle-container-box{
+    position: static;
+    width: 80%;
     padding: 30px;
-    
-    
-}
+    margin: 0 auto;
+} 
 
 
 .news-box, .services-box, .suggestions-box, .contact-box{
     margin-top: 20%;
-    width: 70%;
+    width: 80%;
 }
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .my-navbar {
+    flex-shrink: 0;
+  }
+  
+  .middle-container {
+    margin-top: 50px;
+    flex-grow: 1;
+  }
+
   }
