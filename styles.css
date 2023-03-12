@@ -177,6 +177,15 @@ form{
     margin: 10%;
 }
 
+.carouselimg{
+    opacity: 0.4;
+   height: 400px;
+}
+
+.carousel-caption{
+    color: black;
+}
+
 
 .contactinfo{
     font-size: small;
