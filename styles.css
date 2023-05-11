@@ -24,7 +24,7 @@ position: relative;
     width: 44%;
     background-color: #FEFBE9;
     padding-right: 200px;
-    margin-top: 200px;
+    
 }
  
 .chapter1, .chapter2, .chapter3, .chapter4{
@@ -81,11 +81,10 @@ position: relative;
     width: 300px;  
 }
 
-.random{
-    position: relative;
-    width: 200px;
-    bottom: 50px;
-    left: 20px;
+.logo{
+
+  width: 15%;
+padding-left: 5%;
     
 }
 
@@ -104,7 +103,7 @@ position: relative;
     background-color: #FEFBE9;
     width: 70%;
     height: auto;
-    margin: 200px auto;
+    margin: 10px auto;
     padding-bottom: 50px;
 
 }
@@ -178,19 +177,23 @@ form{
 }
 
 .carouselimg{
-    opacity: 0.4;
+    opacity: 0.3;
    height: 400px;
+ 
 }
 
 .carousel-caption{
-    color: black;
+    color:rgb(63, 58, 58);
 }
+
+  
 
 
 .contactinfo{
     font-size: small;
     padding-left: 3%;
 }
+
 
 
 
