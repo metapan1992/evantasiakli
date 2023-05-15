@@ -177,17 +177,19 @@ form{
 }
 
 .carouselimg{
-    opacity: 0.3;
+    background-image: url(images/carousel1.jpg);
+   text-align: center;
    height: 400px;
+   padding-top: 30%;
+   background-size: cover;
  
 }
 
-.carousel-caption{
-    color:rgb(63, 58, 58);
+
+
+.carousel-link {
+    text-decoration: none;
 }
-
-  
-
 
 .contactinfo{
     font-size: small;
